@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Quiz.Entidade\Quiz.Entidade.csproj" />
     <ProjectReference Include="..\Quiz.Persistencia\Quiz.Persistencia.csproj" />
   </ItemGroup>
 

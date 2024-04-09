@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Quiz", "API.Quiz\API.Quiz.csproj", "{D3B7540C-E0C7-40AD-8541-19FD295E694F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Quiz", "API.Quiz\API.Quiz.csproj", "{D3B7540C-E0C7-40AD-8541-19FD295E694F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Entidade", "Quiz.Entidade\Quiz.Entidade.csproj", "{1F9F8332-5AA9-4FC2-8810-5EE33C5835AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz.Entidade", "Quiz.Entidade\Quiz.Entidade.csproj", "{1F9F8332-5AA9-4FC2-8810-5EE33C5835AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Negocio", "Quiz.Negocio\Quiz.Negocio.csproj", "{E74851D8-E378-453F-9AE8-4654CB8F9219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz.Negocio", "Quiz.Negocio\Quiz.Negocio.csproj", "{E74851D8-E378-453F-9AE8-4654CB8F9219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Quiz", "MVC.Quiz\MVC.Quiz.csproj", "{F0196411-30EF-43CD-BD6E-514FE3B3C5B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC.Quiz", "MVC.Quiz\MVC.Quiz.csproj", "{F0196411-30EF-43CD-BD6E-514FE3B3C5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Persistencia", "Quiz.Persistencia\Quiz.Persistencia.csproj", "{602F2A14-F628-4EA8-BDDA-1D2F7F9387DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz.Persistencia", "Quiz.Persistencia\Quiz.Persistencia.csproj", "{602F2A14-F628-4EA8-BDDA-1D2F7F9387DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz.Util", "Quiz.Util\Quiz.Util.csproj", "{7239AE9A-E633-44A3-9B7F-2F72788399E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quiz.Util", "Quiz.Util\Quiz.Util.csproj", "{7239AE9A-E633-44A3-9B7F-2F72788399E1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Quiz.DataBase", "Quiz.DataBase\Quiz.DataBase.sqlproj", "{368A3170-869C-4591-9D70-65F6A77CFF49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,12 @@ Global
 		{7239AE9A-E633-44A3-9B7F-2F72788399E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7239AE9A-E633-44A3-9B7F-2F72788399E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7239AE9A-E633-44A3-9B7F-2F72788399E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368A3170-869C-4591-9D70-65F6A77CFF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368A3170-869C-4591-9D70-65F6A77CFF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368A3170-869C-4591-9D70-65F6A77CFF49}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{368A3170-869C-4591-9D70-65F6A77CFF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368A3170-869C-4591-9D70-65F6A77CFF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368A3170-869C-4591-9D70-65F6A77CFF49}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

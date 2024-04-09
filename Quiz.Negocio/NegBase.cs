@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Quiz.Entidade;
 using Quiz.Persistencia;
 using System.Data;
 using System.Data.SqlClient;
@@ -13,13 +14,13 @@ namespace Quiz.Negocio
         /// <summary>
         /// Objeto que acesso o banco
         /// </summary>
-        protected SCI.Entidade.Context.SCIContext Db { get; set; }
+        protected Quiz.Entidade.Models.QuizDataBaseContext Db { get; set; }
 
         /// <summary>
         /// Inicializador da classe
         /// cria o objeto Db para ser usado nas classes de negocio
         /// </summary>
-        public NegBaseComum(SCI.Entidade.Context.SCIContext dbSCIContext, IConfiguration configuration) : base(configuration)
+        public NegBaseComum(Quiz.Entidade.Models.QuizDataBaseContext dbSCIContext, IConfiguration configuration) : base(configuration)
         {
             var option = new Microsoft.EntityFrameworkCore.DbContextOptionsBuilder();
 
@@ -31,7 +32,7 @@ namespace Quiz.Negocio
             //Db.Configuration.ProxyCreationEnabled = false;
             //Db.Database.Log = (query) => System.Diagnostics.Debug.Write(query);
         }
-        public NegBaseComum(SCI.Entidade.Context.SCIContext dbSCIContext) : base(null)
+        public NegBaseComum(Quiz.Entidade.Models.QuizDataBaseContext dbSCIContext) : base(null)
         {
             var option = new Microsoft.EntityFrameworkCore.DbContextOptionsBuilder();
 
